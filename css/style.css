@@ -1,0 +1,14 @@
+:root{
+    --cor-de-fundo:  #EBECEE;
+    --font-principal:  #EB9B00;
+    --font-secundario:  #002F52;
+    --font-banner:  #FFFFFF;
+    --texto:  #000000D9;
+
+
+
+
+}
+body{
+    background-color: var(--cor-de-fundo);
+}
