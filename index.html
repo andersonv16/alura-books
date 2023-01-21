@@ -28,7 +28,7 @@
     <header class="cabecalho">
         <div class="container">
             <input type="checkbox" id="menu" class="container__botao">
-            <label for="menu">
+            <label for="menu" class="container__rotulo">
                 <span class="cabecalho__menu-hamburger container__imagem"></span>
             </label>
             <ul class="lista-menu">
@@ -43,8 +43,8 @@
             <h1 class="container__titulo"><b class="container__titulo--negrito">Alura</b>Books</h1>
         </div>
         <ul class="opcoes">
-            <input type="checkbox" id="opcoes__menu" class="opcoes__botao"><label for="opcoes__menu">
-                <li class="opcoes__item">Categorias</li>
+            <input type="checkbox" id="opcoes__menu" class="opcoes__botao "><label for="opcoes__menu" class="opcoes__rotulo">
+                <li class="opcoes__item ">Categorias</li>
             </label>
             <ul class="lista-menu">
                 <li class="lista-menu__item"> <a class="lista-menu__link" href="#">Programação</a></li>
@@ -57,10 +57,14 @@
             <li class="opcoes__item"> <a href="#" class="opcoes__link">Minha estante</a></li>
         </ul>
         <div class="container">
-            <a href="#" class=""></a><img src="./img/Favoritos.svg" alt="Meus Favritos"
-                class="container__imagem container__imagem--transparente">
-            <a href="#" class=""></a><img src="./img/Compras.svg" alt="Carrinho de Compras" class="container__imagem">
-            <a href="#" class=""></a><img src="./img/Usuário.svg" alt="Perfíl de Usuário" class="container__imagem">
+            <a href="#" class=""><img src="./img/Favoritos.svg" alt="Meus Favritos"
+                class="container__imagem container__imagem--transparente"></a>
+            <a href="#" class="container__link">
+                <img src="./img/Compras.svg" alt="Carrinho de Compras" class="container__imagem"><p class="container__texto">Minha Sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img src="./img/Usuário.svg" alt="Perfíl de Usuário" class="container__imagem"><p class="container__texto">Meu Perfil</p>
+            </a>
         </div>
     </header>
     <section class="banner">
@@ -74,7 +78,7 @@
     </section>
     <section class="carousel">
         <h2 class="carousel__titulo">Ultimos Lançamentos</h2>
-
+        <div class="carousel__container">
         <!-- Slider main container -->
         <div class="swiper">
             <div class="swiper-pagination"></div>
@@ -122,11 +126,11 @@
                 <a href="#" class="botoes__ancora">Saiba mais</a>
             </div>
         </div>
-
+    </div>
     </section>
     <section class="carousel-vendas">
         <h2 class="carousel__titulo">Mais Vendidos</h2>
-
+   <div class="carousel__container">
         <!-- Slider main container -->
         <div class="swiper">
             <div class="swiper-pagination"></div>

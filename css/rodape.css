@@ -36,3 +36,13 @@ hr {
         font-size: 1.5rem;
     }
 }
+@media screen and (min-width: 1366px){
+
+    .lista__rodape{
+        border-left: 1px solid var(--font-cinza-claro);
+        padding-left: 1em;
+    }
+    .rodape{
+        padding: 3em 0;
+    }
+}
