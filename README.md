@@ -33,8 +33,6 @@ Josefin Sans
     --font-banner: #FFFFFF;
     --font-azul: #002f52;
     --texto: #000000D9;
-    --font-principal: "Poppins";
-    --font-secundaria: "Josefin Sans";
     --preto: #000000;
 
 
@@ -44,6 +42,6 @@ Josefin Sans
 
 ## Padrões
 
-    font-family: var(--font-principal);
+    font-family: Poppins;
     font-size: 1rem;
     font-weight: 400;
