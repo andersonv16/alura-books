@@ -1,21 +1,12 @@
 .cabecalho__menu-hamburger{
-    width: 3rem;
-    height: 3rem;
+    width: 2rem;
+    height: 2rem;
     background-image: url(../img/Menu.svg);
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
     
 }
-.cabecalho__menu-hamburger:active{
-  content: url(../img/Menu\ Aberto.svg);
-  background: var(--font-azul-degrade);
-  width: 3rem;
-  height: 3rem;
-
-}
-
-
 .cabecalho{
     background-color: var(--font-banner);
     display: flex;
@@ -37,7 +28,6 @@
     width: 60vw;
  
 }
-
 .container__botao:checked~.lista-menu{
     display: block;
 }
