@@ -28,6 +28,7 @@
     text-align: center;
     color: var(--font-banner);
     background: url(../img/Pesquisa.svg) no-repeat;
+    padding-left: 2em;
     background-position: 1em;
 
 }

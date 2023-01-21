@@ -1,0 +1,7 @@
+hr{
+    margin: 0;
+}
+.rodape{
+    background-color: var(--font-banner);
+    padding: 1em;
+}
